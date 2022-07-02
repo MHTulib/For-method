@@ -1,0 +1,32 @@
+package method;
+
+public class Student {
+	String name;
+	int id;
+	String db;
+	float cg;
+	void main(String a,int b, String c, float d) {
+		name=a;
+		id=b;
+		db=c;
+		cg=d;
+		System.out.println("Student Name: "+name);
+		System.out.println("Student id: "+id);
+		System.out.println("Date of Birth: "+db);
+		System.out.println("Current cg: "+cg);
+		System.out.println("\n\n");
+		
+	}
+	public static void main(String[] args) {
+		Student si=new Student();
+		Student si1=new Student();
+		Student si2=new Student();
+		
+		si.main("Shovon",2021,"01 jan 2001",3.21f);
+		si1.main("Tulib",2020,"22 jul 2001",3.21f);
+		si2.main("Unknown",1202,"16 dec 1996",3.66f);
+	
+System.out.println("HELLO");
+
+}
+}
